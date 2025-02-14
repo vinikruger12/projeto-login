@@ -34,7 +34,7 @@ section#login{
     transform: translate(-50%, -50%);
 
     background-color: white;
-    padding: 10px;
+   
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -47,13 +47,13 @@ section#login{
 
 
 section#login > div#foto{
-    background-color: aqua;
+   
     background-image: url(../imagens/praia.jpg);
     height: 200px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    margin: -10px;
+    
     display: block;
 }
 
