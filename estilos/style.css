@@ -52,7 +52,7 @@ section#login > div#foto{
     height: 200px;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+  
     
     display: block;
 }
