@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+   
+    body{
+        background-image: linear-gradient(to bottom, var(--cor1),var(--cor2));
+    }
+
+    section#login{
+        width: 90vw;
+    }
+
+    section#login > div#foto{
+        
+        float: left;
+        width: 30%;
+        height: 110%;
+       
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:992px){
+    
+    body{
+        background-image: linear-gradient(to bottom, var(--cor1),var(--cor2));
+    }
+    
+    section#login{
+        width: 950px;
+    }
+
+    section#login > div#foto{
+        float: left;
+        width: 50%;
+        height: 110%;
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 50%;
+    }
+}
+

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#687E8C;
+    --cor2: #48635E;
+    --cor3:#BFBFBA;
+    --cor4: #8C715A;
+    --cor5: #262626;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--cor2);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+   overflow: hidden;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.597);
+
+   transition: width .5s, height .5s;
+   transition-timing-function: ease;
+}
+
+
+section#login > div#foto{
+    background-color: aqua;
+    background-image: url(../imagens/praia.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: -10px;
+    display: block;
+}
+
+section#login > div#form{
+    display: block;
+}
