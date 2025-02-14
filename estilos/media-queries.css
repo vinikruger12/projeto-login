@@ -35,7 +35,7 @@
         display: block;
     }
 
-    
+
 }
 
 
@@ -47,6 +47,7 @@
 
     section#login{
         width: 90vw;
+        height: 315px;
     }
 
     section#login > div#foto{
@@ -81,6 +82,7 @@
     
     section#login{
         width: 950px;
+        height: 315px;
     }
 
     section#login > div#foto{

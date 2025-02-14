@@ -69,6 +69,9 @@ div#form > h1{
 
 div#form > p{
     font-size: 0.8em;
+    text-align: justify;
+    text-indent: 5px;
+    padding-bottom: 5px;
 }
 
 form > div.campo{
@@ -84,6 +87,13 @@ form > div.campo > span{
     position: relative;
     top: 8px;
     left: 3px;
+    color: white;
+}
+
+div.campo > input{
+    width: calc(100% - 33px);
+    height: 36px;
+    border-radius: 2px;
 }
 
 form label{
